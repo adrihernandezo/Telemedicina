@@ -12,10 +12,13 @@ body{
     #cabecera{
         background-color: #ffffff;
         opacity: 0.8;
-            width:80%;
+            width: 80%;
             margin:3% 8%;
             padding:2%;
             font-size:italic;
+            height: 79%;
+            position: relative;
+            overflow-y: scroll;
     }
 
     #pie{
@@ -24,5 +27,14 @@ body{
     }
     footer{
         display: block;
+    
     }
     
+    h1 {
+        color: #6c2eb9;
+        font-weight: normal;
+        font-size: 40px;
+        font-family: Arial;
+        text-transform: uppercase;
+        text-align: center;
+      }
